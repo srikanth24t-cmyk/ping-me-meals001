@@ -11,6 +11,5 @@ services:
     name: pingme-frontend
     rootDir: frontend
     env: static
-    plan: free
     buildCommand: "npm install && npm run build"
     staticPublishPath: build
